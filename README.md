@@ -1,51 +1,16 @@
-# Quize App React
-Quize App For Basic understanding in React
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-A simple and interactive **Quiz App** built with **React** – ideal for learning core React concepts like state, props, and component structure.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-![Quiz App Banner]
+## React Compiler
 
----![Screenshot (676)](https://github.com/user-attachments/assets/64f495ce-d897-4cf6-8f9e-1765a249873b)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-## 🚀 Features
-
-- ✅ Multiple-choice questions
-- ✅ Score tracking
-- ✅ React hooks (useState, useEffect)
-- ✅ Component-based structure
-- ✅ Responsive design
-
----
-
-## 🖼️ Screenshots
-
-### 🧪 Quiz in Action
-![Quiz Running] ![Screenshot (677)](https://github.com/user-attachments/assets/9dd1f6e2-35a6-4dbb-a386-eb40884cc7c3)
-
-
-### ✅ Final Score View
-![Score View]
-![Screenshot (678)](https://github.com/user-attachments/assets/29b31626-50b9-4ab1-bd40-bdddf1648978)
-
----
-
-## 🔧 Tech Stack
-
-- ⚛️ React
-- 🧩 CSS (or styled-components)
-- 🛠️ JavaScript (ES6+)
-
----
-
-## 🚀 Getting Started
-
-Clone the repo and run locally:
-
-```bash
-git clone https://github.com/creativedesk1000/Quize-App-React.git
-cd Quize-App-React
-npm install
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

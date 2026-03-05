@@ -1,17 +1,28 @@
-import './index.css';
-import Quiz from './components/quize';
-import Results from './components/result';
+import { Navbar, Footer } from './components/Layout'
+import { Hero, About } from './components/HeroAbout'
+import { BreedsSection, ForSaleSection } from './components/BreedSale'
+import { GallerySection, GuidesSection } from './components/GalleryGuides'
+import { TestimonialsSection, ContactSection } from './components/TestimonialsContact'
+import SocialFeed from './components/SocialFeed'
+
 function App() {
-
-
   return (
-    <div className='app-container'>
-      <h1>Quize App</h1>
-
-      <Quiz /> 
+    <div className="smooth-scroll bg-sand-50 min-h-screen">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <BreedsSection />
+        <ForSaleSection />
+        <GallerySection />
+        <SocialFeed />
+        <GuidesSection />
+        <TestimonialsSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
-
-  );
+  )
 }
 
 export default App
